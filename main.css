@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.simple-class{
+    background: rgb(216, 34, 140);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.c_holder{
+background: rgb(240, 208, 32);
+width: 17%;
+height: 500px;
+text-align: center;
+margin: 20px 10px 0 20px;
+box-shadow: gray 10px 10px 10px;
+display: inline-block;
+border-radius: 10px;
+}
+.card_body{
+    text-align: justify;
+}
+h2{
+font-size:45px;}
+#insideCard{
+    padding: 10px 15px 0px 15px;
+    
+}
+.para{
+    font-weight: bold;
+    color: green;
+    padding-top: 13px;
+    text-align: center;
+}
+.all_card{
+    margin-left: 16%;
+    margin-top: 2%;
+}
+.c1{
+    background: chartreuse;
+    
+}
+.c3{
+    background: #26d0ff;
+    color: crimson;
+}
+.c4{
+    background: #ff2655;
+    color: cornsilk;
+}
+.c2{
+    color: #ffffff;
+}
+
+.c_holder:hover{
+cursor: pointer;
+transform: scale(1.04);
+transition: 0.4s;
+}
+
+.c_holder:active{
+    transform: scale(0.95);
+}
